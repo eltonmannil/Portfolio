@@ -1,0 +1,75 @@
+body{
+    font-family: monospace;
+}
+span.font-primary {
+    color: #00ABAE;
+}
+.title-icon{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+p{font-size: 14px;}
+h2{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+a.active{
+    color:#000 !important;
+}
+/******************************* About section   *************************/
+#about{
+    margin: 40px auto;
+    max-width: 400px;
+    text-align: center;
+}
+#about img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name{
+    font-size: 19px;
+}
+#about .vocation{
+    color: #a8a8ab;
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+#about .skills{
+    font-size: 14px;
+    color: #00ABAE;
+    margin-bottom: 10px;
+}
+#about .email{
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+#about .icons{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#about .icons a{
+    color: #000;
+}
+/******************************* Project section   *************************/
+#project{
+    margin: 60px auto;
+    width: 80%;
+
+}
+#project h2{
+    text-align: center;
+
+}
+#project .card img{
+    width: 100%;
+
+}
+#project .card-title{
+    font-weight: bold;
+
+}
