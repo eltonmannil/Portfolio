@@ -1,10 +1,10 @@
 # PortFolio
 This Portfolio is a small project using HTML / CSS and Bootsrap. I will be using this to showcase my projects!
 
-[Live Heroku Deployment]()
+[Live Deployment](https://portfolio.eltonmathew.repl.co/)
 
 
- <img width="1080" alt="image" src="">
+ <img width="1080" alt="image" src="https://github.com/eltonmannil/Portfolio/blob/main/img/portfolio%20SS.PNG">
 
 ## Technologies used
 
