@@ -1,0 +1,72 @@
+.review-card {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+    width: 60%;
+    border-radius: 30px;
+    padding-bottom: 3%;
+    margin: 5rem auto;
+    position: relative;
+    text-align: center;
+}
+.review-title{
+    padding-bottom: -11px;
+    margin-right: 73%;;
+}
+.review-desc{
+    padding-bottom: -20px;
+    margin-right: 70%;
+}
+.rb{
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 7%;
+    text-align: center;
+    height: 50px;
+    margin-bottom: -7px;
+    margin-right: 10px;
+
+}
+.likes{
+    margin-top: -1px;
+    padding-left: 15%;
+    text-align: center;
+    margin-right: -14px;
+    font-size: 10px;
+}
+
+.form{
+    margin-right: 480px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+/* input section */
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+.submit-review{
+  padding: 0.6%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 18px;
+  background-color: #e1a700;
+  color: white;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 100;
+}
+
+
+
+img.cross {
+    position: absolute;
+    top: 0.3rem;
+    right: 1.3rem;
+}

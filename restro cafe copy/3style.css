@@ -1,0 +1,48 @@
+.review-card{
+    border: 2px solid black;
+    border-radius: 100%;
+    text-align: center;
+    width: 50%;
+    border-radius:30px;
+    padding-bottom: 3%;
+    padding-left: 40px;
+    margin: 5rem auto;
+}
+.review-title{
+    padding-bottom: -11px;
+    margin-right:10%;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.rb{
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 7%;
+    text-align: center;
+    height: 50px;
+    margin-bottom: -7px;
+    margin-right: 10px;
+
+}
+.likes{
+    margin-top: -1px;
+    padding-left: 15%;
+    text-align: center;
+    margin-right: -14px;
+    font-size: 10px;
+}
+
+.form{
+    margin-right: 500px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    padding-left: 3%;
+}
+img.cross {
+    position: absolute;
+    top: 87.5px;
+    right: 385px;
+}

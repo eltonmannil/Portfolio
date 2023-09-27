@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  /* for header */
+  .top-logos img {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 10%;
+  }
+  
+  .top-images {
+    position: relative;
+  }
+  
+  .top-images img {
+    width: 100%;
+  }
+  
+  #text {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    font-size: 2.4rem;
+    width: 40%;
+  }
+  
+  .main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  
+  
+  .Hey {
+    font-size: 30px;
+    color: #fc9250;
+    font-weight: bold;
+    font-family: "Avenir Next";
+  }
+  
+  
+
+  
+    img#group {
+      width: 100%;
+    }
+  
+    .images .image {
+      width: 75%;
+    }
+
+  
+ 
+  
+  .image {
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .imag {
+    width: 50%;
+  }
+  
+  
+  
+  header{
+      position: relative;
+  }
+  
+  header .blur{
+      width: 100%;
+      background-color: rgba(0,0,0,0.5);
+      height: 100vh;
+      position: absolute;
+  }
+  
+  
+  .reviews{
+    max-width: 60%;
+    font-size: 1.1rem;
+  }
+  
+  .cart{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+.yl .cart-btn {
+    border: none;
+    padding: 1vw;
+    border-radius: 30px;
+    background-color: #e1a700;
+    color: white;
+    width: 25%;
+    
+}
+  
+.img-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 7%;
+}
+  
+  
+  .cart{
+    display: flex;
+
+    align-items: center;
+ 
+    
+  }
+  .cart p {
+    margin-left: 0.5vw;
+    font-weight: bold;
+
+  }
+  .home-btn {
+    border: none;
+    padding: 13px;
+    border-radius: 30px;
+    background-color: #fc9250;;
+    color: white;
+    width: 10%;
+    margin-left: 10%;
+}
+footer{
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+}
+.Cost{
+    margin-left: 80%;
+}
+.image .cart .add-buttons .remove-buttons{
+    width: 2vw;
+    position: relative;
+    left: 0vw;
+    border: white;
+    background-color: grey;
+}
+
+.add-buttons{
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.remove-buttons{
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.cart .btn1{
+    background-color: lightgray;
+    margin: 0;
+}
+.cart .buttons .p{
+    color: #fc9250;
+}
+
+button.cart-button {
+    width: 25%;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+span.plussign {
+    background-color: #918b8b;
+    width: 15%;
+    padding: 8px 20px;
+    border-radius: 9px 1px 1px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+span.minussign {
+    background-color: #918b8b;
+    width: 15%;
+    padding: 8px 20px;
+    border-radius: 1px 9px 9px 1px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

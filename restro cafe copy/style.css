@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 10px;
+}
+
+/* for header */
+.top-logos img {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 10%;
+}
+
+.top-images {
+  position: relative;
+}
+
+.top-images img {
+  width: 100%;
+}
+
+#text {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  font-size: 1.4rem;
+  width: 40%;
+}
+
+.button {
+  padding: 0.6%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 18px;
+  background-color: #fc9250;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+img#group {
+  width: 100%;
+}
+
+.Hey {
+  font-size: 20px;
+  color: #fc9250;
+  font-weight: bold;
+  font-family: "Avenir Next";
+}
+
+.images {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+  }
+
+  img#group {
+    width: 100%;
+  }
+
+  .images .image {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+    div.main {
+        width: 80%;
+      }
+
+      #text {
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        font-size: 1.4rem;
+        width: 50%;
+    }  
+}
+
+.image {
+  width: 32%;
+}
+
+.imag {
+  width: 100%;
+}
+
+.heart {
+  width: 2rem;
+}
+
+/* header{
+    position: relative;
+}
+
+header .blur{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    position: absolute;
+} */
+
+.like{
+  display: flex;
+  align-items: center;
+}
+
+.reviews{
+  display: flex;
+}
+
+.cart{
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+}
+
+.img-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviews p{
+  padding-right: 20px;
+}
+
+.cart button{
+  padding-right: 10px;
+}
+footer{
+  text-align: center;
+    width: 60%;
+    margin: 0px auto;
+}
+
