@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(20, 20, 19);
+    font-family: Spartan;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* for header */
+.top-images img{
+   position: relative; 
+  width: 100%;
+}
+.top-images{
+     position: relative; 
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #292828;
+    position: relative;
+    bottom: 53vw;
+    opacity: 0.8;
+
+}
+ img .search {
+    opacity: 0.3;
+}
+input[type="text"] {
+background-color: rgb(0,0,0,0);
+width: 200px;
+height: 30px;
+border-radius: 10px;
+border: 1px solid rgb(224, 224, 224);
+color: white;
+font-size: 20px;
+} 
+
+/* Rectangle 32 */
+/* main first row */
+/* .first-row {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}*/
+.main{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+  } 
+
+.search-logo {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    padding: 4px;
+}
+.like{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+}
+.first-line{
+    display: flex; 
+    margin: 15px; 
+}
+ul.container{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+li.menus {
+    /*height: 460px;
+    width: 350px; */
+    display: flex;
+    position: relative;
+    margin: 10px auto; 
+
+}
+ .container .image img {
+    width: 100%;
+ }
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+.like-ratings{
+    display: flex;
+}
+.search{
+    position: relative;
+    display: flex;
+}
+.search img{
+    position: absolute;
+    right: 10px;
+}
+.category{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px; 
+}
+.p-10 ,.p-11{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+
+}
+ header .text {
+        position: absolute;
+        bottom: 10%;
+        border: none;
+        background-color: #292828;
+        padding: 35px 12px;
+        width: 100%;
+        opacity: 0.6;
+    }
+p{
+    color: white;
+}
+header .T-button{
+    position: absolute;
+    left: 20px;
+    top: 60%;
+}
+.heading-text {
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 10px;
+    align-items: center;
+    padding: 10px 0;
+}
