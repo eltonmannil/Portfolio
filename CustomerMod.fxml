@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="510.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CustomerMod">
+    <Label layoutX="47.0" layoutY="33.0" prefHeight="47.0" prefWidth="193.0" text="Modify Customer">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+    <TextField fx:id="customerIDField" disable="true" layoutX="210.0" layoutY="113.0" prefHeight="35.0" prefWidth="230.0" promptText="Auto-Generated" />
+    <TextField fx:id="customerNameField" layoutX="210.0" layoutY="161.0" prefHeight="35.0" prefWidth="230.0" />
+    <TextField fx:id="customerAddressField" layoutX="210.0" layoutY="213.0" prefHeight="35.0" prefWidth="230.0" />
+    <TextField fx:id="customerPhoneNumberField" layoutX="210.0" layoutY="262.0" prefHeight="35.0" prefWidth="230.0" />
+    <Label layoutX="47.0" layoutY="114.0" prefHeight="35.0" prefWidth="121.0" text="ID">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="161.0" prefHeight="35.0" prefWidth="121.0" text="Name">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="213.0" prefHeight="35.0" prefWidth="121.0" text="Address">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="262.0" prefHeight="35.0" prefWidth="121.0" text="Phone Number">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="310.0" prefHeight="35.0" prefWidth="121.0" text="Country">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="357.0" prefHeight="35.0" prefWidth="121.0" text="State/Province">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="47.0" layoutY="402.0" prefHeight="35.0" prefWidth="121.0" text="Postal Code">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <ComboBox fx:id="customerCountryComboBox" layoutX="210.0" layoutY="310.0" onAction="#loadDivisions" prefHeight="35.0" prefWidth="230.0" />
+    <ComboBox fx:id="customerDivisionComboBox" layoutX="210.0" layoutY="357.0" prefHeight="35.0" prefWidth="230.0" />
+    <TextField fx:id="customerPostalCodeField" layoutX="210.0" layoutY="402.0" prefHeight="35.0" prefWidth="230.0" />
+    <Button fx:id="customerSaveButton" layoutX="213.0" layoutY="454.0" mnemonicParsing="false" onAction="#saveOnClick" prefHeight="35.0" prefWidth="102.0" text="Save" />
+    <Button fx:id="customerCancelButton" layoutX="338.0" layoutY="454.0" mnemonicParsing="false" onAction="#cancelOnClick" prefHeight="35.0" prefWidth="102.0" text="Cancel" />
+</AnchorPane>
